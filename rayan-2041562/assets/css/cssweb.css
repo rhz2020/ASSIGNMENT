@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #202225;
+    color: #ffffff;
+}
+
+header {
+    background-color: #202225;
+
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-sign {
+    color: #5865f2;
+    text-decoration: none;
+}
+
+body p {
+    color: #b9bbbe;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1.5%;
+}
+
+nav ul {
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav a,nav a:visited {
+    color: #5865f2;
+    font-size: 150%;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+nav a:active {
+    color: #95969b;
+    font-size: medium;
+}
+
+.preload{
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 3.9s;
+    font-size: 120px;
+}
+
+
+
+@keyframes preLoad {
+    from {color: #202225;}
+}
+
+.preload-nav{
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 6s;
+}
+
+.preload-about{
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 6s;
+}
+
+.preload-about-img{
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 6s;
+}
+
+.preload-about-text{
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 8s;
+}
+
+
+.preload-ao{
+    animation-name: preLoad;
+    animation-duration: 8.6s;
+}
+
+.preload-ao-text{
+    animation-name: preLoad;
+    animation-duration: 8.7s;
+}
+
+
+.preload-education {
+    animation-name: preLoad;
+    animation-duration: 9.2s;
+}
+
+.preload-skills {
+    animation-name: preLoad;
+    animation-duration: 10.2s;
+}
+
+.preload-projects {
+    animation-name: preLoad;
+    animation-duration: 12.2s;
+}
+
+.preload-contact {
+    text-align: center;
+    animation-name: preLoad;
+    animation-duration: 14.2s;
+}
+
+@keyframes preLoad {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.text-rhz {
+    color: #5865f2;
+}
+
+.main-welcome {
+    font-size: 100px;
+    max-block-size: 80%;
+}
+
+hr {
+    margin: auto;
+    width: 50%;
+}
+
+
+.main-container {
+    max-height:max-content;
+    max-width: 1820px;
+    border-radius: 40px;
+    background-color: #202225;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 222px;
+    border-radius: 10%;
+}
+
+.infos {
+    text-align: center;
+}
+
+span {
+    color: #ffffff;
+    text-decoration: underline #5865f2 3px;
+}
+
+summary {
+    transition: 0.25s;
+}
+
+summary:hover {
+    color: #5865f2;
+    transition: 0.25s;
+}
+
+details {
+    transition: 0.25s;
+}
+
+.sm-icons,.sm-icons:visited {
+    color: #5865f2;
+    transition: 0.25s;
+}
+
+.sm-icons:hover {
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+.sm-icons:active {
+    color: #95969b;
+}
+
+
+.contact ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.contact ul {
+    text-align: center;
+    font-size: 190%;
+}
